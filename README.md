@@ -69,17 +69,14 @@ Web Application Deployment
 ## Project Structure
 
  docker-cicd-project
+
 │
-
 ├── app.py
-
 ├── Dockerfile
-
 ├── Jenkinsfile
-
 ├── requirements.txt
+├── README.md
 
-└── README.md
 
 ## How to Run Application
 

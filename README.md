@@ -70,10 +70,15 @@ Web Application Deployment
 
  docker-cicd-project
 │
+
 ├── app.py
+
 ├── Dockerfile
+
 ├── Jenkinsfile
+
 ├── requirements.txt
+
 └── README.md
 
 ## How to Run Application

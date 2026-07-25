@@ -15,23 +15,18 @@
 ## Architecture
 
 Developer
-
     |
     ↓
 GitHub Repository
-
     |
     ↓
 Jenkins CI/CD Pipeline
-
     |
     ↓
 Docker Image Build
-
     |
     ↓
 Docker Container
-
     |
     ↓
 Web Application Deployment
@@ -55,18 +50,14 @@ Web Application Deployment
 - Reproducible deployment environment
 
 ## Project Structure
- 
-... 
 
-docker-cicd-project
-
+ docker-cicd-project
+│
 ├── app.py
 ├── Dockerfile
 ├── Jenkinsfile
 ├── requirements.txt
 └── README.md
- 
-...
 
 ## How to Run Application
 

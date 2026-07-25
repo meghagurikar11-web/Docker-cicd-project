@@ -14,22 +14,39 @@
 
 ## Architecture
 
+## Architecture
+
 Developer
-    |
-    ↓
+   │
+   ├── Writes the application code
+   │
+   ▼
 GitHub Repository
-    |
-    ↓
+   │
+   ├── Stores the source code
+   ├── Receives code from the developer
+   │
+   ▼
 Jenkins CI/CD Pipeline
-    |
-    ↓
+   │
+   ├── Pulls the latest code from GitHub
+   ├── Builds the application
+   ├── Runs automated tests
+   │
+   ▼
 Docker Image Build
-    |
-    ↓
+   │
+   ├── Builds a Docker image using the Dockerfile
+   │
+   ▼
 Docker Container
-    |
-    ↓
+   │
+   ├── Runs the Docker image as a container
+   │
+   ▼
 Web Application Deployment
+   │
+   └── Makes the application available in the browser
 
 
 ## Technologies Used
